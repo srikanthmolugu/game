@@ -10,11 +10,11 @@ $(document).ready(function(){
      $('#submit').click(function(){
          if(button=="ZYMASE"){
              alert("U R DONE");
-             window.location="../html/end.html";
+             window.location="end.html";
          }
          else{
              alert("GAME OVER");
-             window.location="../html/welcome1.html";
+             window.location="welcome1.html";
          } 
     } )
      
